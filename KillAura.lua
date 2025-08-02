@@ -119,7 +119,7 @@ end
 -- Run the script after key verification
 local function runMainScript()
     -- Your original script logic here
-    local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/MZXNxd/Pixel-Blade-Script-OP/refs/heads/main/Pixel%20Blade%20SEX1234AMZXNO.lua"))()
+    local Games = loadstring(game:HttpGet('https://raw.githubusercontent.com/chillunsk/Pixel-Blade-Potions-script/refs/heads/main/Pixel%20Blade%20%5BPotions%5D%20recoded'))()
 
     for PlaceID, Execute in pairs(Games) do
         if PlaceID == game.PlaceId then
